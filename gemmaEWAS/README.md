@@ -7,16 +7,17 @@ IMPORTANT:<br/>
 - We use [GEMMA](https://github.com/genetics-statistics/GEMMA) to run mixed models correcting for population structure with a distance matrix <br/>
 - We use the BIMBAM input files for [GEMMA](https://github.com/genetics-statistics/GEMMA) to provide quantitative methylation values <br/>
 - This repository contains scripts for additional plotting and powerful downstream analysis to interpret the results.<br/>
+<br/>
 
 SCRIPTS DESCRIPTION:<br/>
 <br/>
 [gemmaEWA_multi_Epi.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/gemmaEWA_multi_Epi.sh)<br/>
 Run EWAS for multiple phenotypes in [GEMMA](https://github.com/genetics-statistics/GEMMA) from context-specific unionbed files. <br/>
-Additionally it uses qqman_GEMMA.R to draw manhattan and qqplots and enrichment_plot.R to plot enrichment of a priori candidate genes (if present).
+Additionally it uses [qqman_GEMMA.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/qqman_GEMMA.R) to draw manhattan and qqplots and [enrichment_plot.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/enrichment_plot.R) to plot enrichment of a priori candidate genes (if present).
 
 [EWAS_manhattan_contColours.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/EWAS_manhattan_contColours.R)<br/>
 Draw manhattan and qqplots for all sequence contexts combined and for a single phenotype, producing graphs similar to these:
-![image](https://user-images.githubusercontent.com/58292612/223486838-ff5f9130-4293-4f3f-a9fa-7f4139536b21.png)
+![image](https://user-images.githubusercontent.com/58292612/223488263-18394163-3e9a-4ff7-95db-eb877895257a.png)
 
 
 [Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh)<br/>
@@ -24,7 +25,7 @@ Run an enrichment analysis of variants in different genomic features (CDS, TEs, 
 
 [Features_enrichment_plot_multi.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_plot_multi.R)<br/>
 Plot results from [Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh) for multiple phenotypes.
-![image](https://user-images.githubusercontent.com/58292612/223487099-6466e013-5bb9-454d-987a-6dc2a5e739cd.png)
+![image](https://user-images.githubusercontent.com/58292612/223488465-3c844cc0-f887-4f3d-982c-ba06a49747eb.png)
 
 
 
