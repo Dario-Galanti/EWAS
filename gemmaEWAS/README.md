@@ -11,19 +11,19 @@ IMPORTANT:<br/>
 
 SCRIPTS DESCRIPTION:<br/>
 <br/>
-[gemmaEWA_multi_Epi.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/gemmaEWA_multi_Epi.sh)<br/>
+[gemmaEWA_multi_Epi.sh](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/gemmaEWA_multi_Epi.sh)<br/>
 Run EWAS for multiple phenotypes in [GEMMA](https://github.com/genetics-statistics/GEMMA) from context-specific unionbed files. <br/>
-Additionally it uses [qqman_GEMMA.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/qqman_GEMMA.R) to draw manhattan and qqplots and [enrichment_plot.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/enrichment_plot.R) to plot enrichment of a priori candidate genes (if present).
+Additionally it uses [qqman_GEMMA.R](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/qqman_GEMMA.R) to draw manhattan and qqplots and [enrichment_plot.R](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/enrichment_plot.R) to plot enrichment of a priori candidate genes (if present).
 
-[EWAS_manhattan_contColours.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/EWAS_manhattan_contColours.R)<br/>
+[EWAS_manhattan_contColours.R](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/EWAS_manhattan_contColours.R)<br/>
 Draw manhattan and qqplots for all sequence contexts combined and for a single phenotype, producing graphs similar to these:
 ![image](https://user-images.githubusercontent.com/58292612/223489660-f773a080-7d21-4ee5-85a5-96d8eef162a9.png)
 
-[Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh)<br/>
+[Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh)<br/>
 Run an enrichment analysis of variants in different genomic features (CDS, TEs, promoters ...) to test whether high -log(P) associations are enriched in a specific genomic feature.
 
-[Features_enrichment_plot_multi.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_plot_multi.R)<br/>
-Plot results from [Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh) for multiple phenotypes.
+[Features_enrichment_plot_multi.R](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/Features_enrichment_plot_multi.R)<br/>
+Plot results from [Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/blob/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh) for multiple phenotypes.
 ![image](https://user-images.githubusercontent.com/58292612/223489111-93669311-a691-47bf-b37d-b75af8a3cb1d.png)
 
 
