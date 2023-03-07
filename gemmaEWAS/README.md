@@ -25,7 +25,7 @@ Run an enrichment analysis of variants in different genomic features (CDS, TEs, 
 
 [Features_enrichment_plot_multi.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_plot_multi.R)<br/>
 Plot results from [Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh) for multiple phenotypes.
-![image](https://user-images.githubusercontent.com/58292612/223488465-3c844cc0-f887-4f3d-982c-ba06a49747eb.png)
+![image](https://user-images.githubusercontent.com/58292612/223489111-93669311-a691-47bf-b37d-b75af8a3cb1d.png)
 
 
 
