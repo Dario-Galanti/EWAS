@@ -17,8 +17,7 @@ Additionally it uses [qqman_GEMMA.R](https://github.com/Dario-Galanti/EWAS/new/m
 
 [EWAS_manhattan_contColours.R](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/EWAS_manhattan_contColours.R)<br/>
 Draw manhattan and qqplots for all sequence contexts combined and for a single phenotype, producing graphs similar to these:
-![image](https://user-images.githubusercontent.com/58292612/223488263-18394163-3e9a-4ff7-95db-eb877895257a.png)
-
+![image](https://user-images.githubusercontent.com/58292612/223489660-f773a080-7d21-4ee5-85a5-96d8eef162a9.png)
 
 [Features_enrichment_gemmaEWA.sh](https://github.com/Dario-Galanti/EWAS/new/main/gemmaEWAS/Features_enrichment_gemmaEWA.sh)<br/>
 Run an enrichment analysis of variants in different genomic features (CDS, TEs, promoters ...) to test whether high -log(P) associations are enriched in a specific genomic feature.
